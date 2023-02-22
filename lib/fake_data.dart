@@ -41,9 +41,6 @@ class _HomePageState extends State<HomePage> {
     // group by cate id
     var groupByCat = groupBy(activeProducts, (Map obj) => obj['categoryId']);
 
-    // var sortedPrice = activeProducts.sort(
-    //     (a, b) => double.parse(b['price']).compareTo(double.parse(a['price'])));
-
     print(groupByCat);
   
   }
